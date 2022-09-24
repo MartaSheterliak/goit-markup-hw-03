@@ -1,0 +1,242 @@
+:root {
+    --top-title-color: #212121;
+    --top-text-color: #757575;
+    --top-adress-color: #2196F3;
+    --top-ht: 1.14;
+    --top-footer-text: rgba(255, 255, 255, 0.6);
+    --footer-text-color: #FFFFFF;
+    --top-btn-color: #FFFFFF;
+}
+
+body {
+font-family: "Roboto", sans-serif;
+font-size: 15px;
+color: var(--top-title-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+
+/*----------------HEADER---------------*/
+
+.header-logo,
+.footer-logo {
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--top-adress-color);
+}
+
+.header-color-text {
+    color: #000000;
+}
+
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--top-ht);
+    letter-spacing: 0.02em;
+    color: var(--top-title-color);
+}
+
+.header-item .header-link.current {
+    color: var(--top-adress-color);
+}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--top-ht);
+    letter-spacing: 0.02em;
+    color: var(--top-text-color);
+}
+
+.header-contacts:hover,
+.header-link:hover, 
+.header-link:focus {
+    color:var(--top-adress-color);
+}
+
+/*----------------HERO-----------------*/
+
+.hero {
+    background-color: #2F303A
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--top-btn-color);
+    background-color: var(--top-adress-color);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--top-btn-color);
+    background-color: #188ce8;
+}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: var(--top-ht);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--top-title-color);
+}
+
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--top-text-color);
+}
+
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--top-title-color);
+}
+
+.team-top-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--top-title-color);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--top-title-color);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--top-text-color);
+}
+
+
+/*-----------------FOOTER--------------*/
+
+.footer {
+    background-color: #2F303A;}
+
+.footer-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-address {
+    color: var(--footer-text-color);
+}
+
+.footer-mail {
+    color: var(--top-footer-text);
+}
+
+.footer-tel {
+    color: var(--top-footer-text);
+}
+
+.footer-color-text {
+    color: var(--footer-text-color);
+}
+
+/*--------------Portfolio-------------*/
+
+
+
+.progects-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--top-title-color);
+}
+
+.progects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--top-title-color);
+}
+
+.progects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--top-text-color);
+}
+
+.progects-hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--top-title-color);
+}
+
+.progects-hero-btn:hover,
+.progects-hero-btn:focus {
+    color: var(--top-btn-color);
+    background-color: var(--top-adress-color);
+}
