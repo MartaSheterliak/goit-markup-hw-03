@@ -65,8 +65,7 @@ body {
 
 /*----------------HEADER---------------*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-navigation {
@@ -100,6 +99,8 @@ body {
 }
 
 .header-link {
+  padding: 32px 0;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: var(--top-ht);
@@ -112,6 +113,8 @@ body {
 }
 
 .header-contacts {
+  padding: 32px 0;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: var(--top-ht);
@@ -159,12 +162,12 @@ body {
   color: var(--top-btn-color);
   background-color: var(--top-adress-color);
   cursor: pointer;
-  max-width: 216px;
   margin: 0 auto;
   display: block;
   margin-top: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 10px 32px;
 }
 
 .hero-btn:hover,
@@ -176,6 +179,15 @@ body {
 .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 30px; 
+}
+
+.benefits-item {
+  width: calc((100%-90) / 4);
 }
 
 .benefits-title {
@@ -221,6 +233,7 @@ body {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
 }
 
 .team-top-title {
@@ -239,7 +252,10 @@ body {
 }
 
 .team-item {
+  background-color: #FFFFFF;
   width: calc((100%-90) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-content {
@@ -305,12 +321,10 @@ body {
 /*--------------Portfolio-------------*/
 
 .progects {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 
 .progects-filtr {
-  max-width: 575px;
   margin: 0 auto;
   display: block;
   margin-bottom: 34px;
@@ -342,6 +356,10 @@ body {
 .progects-item-content {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding: 20px 24px;
+  border-left: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+  border-right: 1px solid #ECECEC;
 }
 
 .progects-title {
@@ -369,8 +387,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--top-title-color);
-  min-width: 73px;
-  height: 38px;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .progects-hero-btn:hover,
